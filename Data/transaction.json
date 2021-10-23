@@ -108,6 +108,112 @@
 				"sellDatetime": "2021-10-11T08:18:18Z"
 			  },
 			]
+		},
+		{
+			"id": 2,
+			"userId": 2,
+			"InitialAmount": 100000,
+			"transactionList": [
+				{
+					"tId": 1,
+					"company": "IRCTC",
+					"share": 30,
+					"buyAt": 1000,
+					"sellAt": 1050,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 2,
+					"company": "Tata Motors",
+					"share": 25,
+					"buyAt": 900,
+					"sellAt": 905,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 3,
+					"company": "IRB Infra",
+					"share": 30,
+					"buyAt": 2000,
+					"sellAt": 1990,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 4,
+					"company": "Univastu India",
+					"share": 25,
+					"buyAt": 500,
+					"sellAt": 510,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 5,
+					"company": "Rail Vikas",
+					"share": 20,
+					"buyAt": 200,
+					"sellAt": 300,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 6,
+					"company": "Tata Power",
+					"share": 15,
+					"buyAt": 370,
+					"sellAt": 380,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 7,
+					"company": "Shoppers Stop",
+					"share": 50,
+					"buyAt": 400,
+					"sellAt": 390,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 8,
+					"company": "Indian Bank",
+					"share": 30,
+					"buyAt": 100,
+					"sellAt": 170,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 9,
+					"company": "Godrej Prop",
+					"share": 35,
+					"buyAt": 268,
+					"sellAt": 290,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 10,
+					"company": "Oberoi Realty",
+					"share": 40,
+					"buyAt": 740,
+					"sellAt": 750,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				},
+				{
+					"tId": 11,
+					"company": "Ircon Internati",
+					"share": 20,
+					"buyAt": 100,
+					"sellAt": 170,
+					"buyDatetime": "2021-10-11T08:18:18Z",
+					"sellDatetime": "2021-10-11T08:18:18Z"
+				}
+			]
 		}
 	]
 }
