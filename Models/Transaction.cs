@@ -29,6 +29,8 @@ namespace StockTradingSimulator.Models
 
         [Display(Name = "share")]
         public float share { get; set; }
+        [Display(Name = "scrip")]
+        public string scrip { get; set; }
 
         [Display(Name = "buyAt")]
         public float buyAt { get; set; }

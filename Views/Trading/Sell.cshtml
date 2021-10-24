@@ -1,0 +1,30 @@
+﻿@model StockTradingSimulator.Models.TransactionList
+
+
+@{
+    ViewBag.Title = "Sell";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sell Your Shares</h2>
+<br />
+<style>
+
+    span {
+    color: teal;}
+</style>
+
+<h4>
+    Company :<span> @Html.DisplayFor(model => model.company) </span><br /><br />
+
+    Scrip : <span>@Html.DisplayFor(model => model.scrip) </span><br /><br />
+
+    Available to Sell : <span>@Html.DisplayFor(model => model.share)</span><br /><br />
+</h4>
+
+
+<h4>Please enter the quantity to sell:</h4><br />
+
+<input type="text" style="width:200px"/>
+
+<b><input type="button" style="width:200px" class="btn btn-primary" value="Sell"  onclick="javascript:document.location='/success'"/></b>

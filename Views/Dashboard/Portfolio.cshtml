@@ -1,5 +1,8 @@
 ﻿<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<style>
 
+
+</style>
 <script>
     $(document).ready(function () {
         //Call EmpDetails jsonResult Method
@@ -13,51 +16,57 @@
                     var transactionList = json[0].transactionList;
                     var bdate, sdate;
                     //Append each row to html table
-                    for (var i = 0; i < transactionList.length; i++) {
+                    for (var i = 0; i < transactionList.length - 5; i++) {
                         tr = $('<tr/>');
                         tr.append("<td>" + transactionList[i].company + "</td>");
+                        tr.append("<td>" + transactionList[i].scrip + "</td>");
                         tr.append("<td>" + transactionList[i].share + "</td>");
                         tr.append("<td>" + transactionList[i].buyAt + "</td>");
+                        
                         if (transactionList[i].buyAt <= transactionList[i].sellAt) {
                             tr.append("<td class='green'>" + transactionList[i].sellAt + "</td>");
                         }
                         else {
                             tr.append("<td class='red'>" + transactionList[i].sellAt + "</td>");
                         }
-                        bdate = new Date(transactionList[i].buyDatetime);
-                        tr.append("<td>" + bdate.toDateString() + "</td>");
-                        sdate = new Date(transactionList[i].sellDatetime);
-                        tr.append("<td>" + sdate.toDateString() + "</td>");
 
                         tr.append("<td>" + ((transactionList[i].sellAt - transactionList[i].buyAt) * transactionList[i].share) + "</td>");
-                         $('.ttable').append(tr);
+                        tr.append("<td><a href='/Trading/Sell?id=" + i.toString() + "'>Sell</a></td>");
+
+                        $('.ptable').append(tr);
                         totalInvestment = totalInvestment + ((transactionList[i].sellAt - transactionList[i].buyAt) * transactionList[i].share);
                     }
-                    BalanceAmount.innerText = json[0].InitialAmount;
+                    BalanceAmount.innerText = json[0].InitialAmount + totalInvestment;
                     CurrentStatus.innerText = totalInvestment;
-                    if (totalInvestment < 0) {
-                        CurrentStatus.classList.add('red');
-                        CurrentStatus.classList.remove('green');
-                    }
+
                 }
             });
     });
 </script>
-<div class="col-md-12">
+<div class="jumbotron col-md-12">
 
-    <h2>Transaction Details</h2>
-   
+    <div class="col-md-6">
+        <h3>Balance Amount</h3>
+        <p><span id="BalanceAmount"></span></p>
+    </div>
+    <div class="col-md-6">
+        <h3>Overall Profit/Loss</h3>
+        <p><span id="CurrentStatus" class='green'></span></p>
+    </div>
 </div>
-<table class="ttable table-bordered table-condensed table-hover table-striped" style="width:100%">
+<h2>Your Portfolio</h2>
+
+<table class="ptable table-bordered table-condensed table-hover table-striped" style="width:100%">
     <thead>
         <tr>
             <th>Company</th>
+            <th>Scrip</th>
             <th>Share</th>
             <th>Buy At</th>
-            <th>Sell At</th>
-            <th>Buy Date</th>
-            <th>Sell Date</th>
+            <th>Current Price</th>
             <th>Profit/Loss</th>
+            <th></th>
+
         </tr>
     </thead>
     <tbody></tbody>

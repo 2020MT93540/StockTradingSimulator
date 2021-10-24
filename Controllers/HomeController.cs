@@ -10,7 +10,7 @@ namespace StockTradingSimulator.Controllers
 	{
 		public ActionResult Index()
 		{
-			return View();
+			return RedirectToAction("Index", "Dashboard");
 		}
 
 		public ActionResult About()
