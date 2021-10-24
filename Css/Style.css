@@ -1,0 +1,16 @@
+﻿body {
+}
+.red,
+.red a {
+    color: red !important;
+}
+
+.blue,
+.blue a {
+    color: blue !important;
+}
+
+.green,
+.green a {
+    color: green !important;
+}
