@@ -16,7 +16,7 @@ Start buying/selling stocks like real trading scenarios.
 Monitor your portfolio and track profit/loss.
 Try different strategies and learn the trading basics.
 
-•	Aims and objectives —
+•	Aims and objectives :
 
 No need to open a demat/trading account or go through any documentation process.
 No real money is required to start virtual trading.
