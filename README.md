@@ -18,7 +18,7 @@ Try different strategies and learn the trading basics.
 
 •	Aims and objectives :
 
-No need to open a demat/trading account or go through any documentation process.
+No need to open a demat account or go through any documentation process.
 No real money is required to start virtual trading.
 Real-time market scenarios to try out different strategies and to learn the basics.
 Risk-free trading practice.
