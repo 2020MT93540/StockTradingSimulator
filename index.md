@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome Stock Trading Simulator
 
-You can use the [editor on GitHub](https://github.com/2020MT93540/StockTradingSimulator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+•	Name of the Project: Stock Trading Simulator
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+•	Overview of the project: 
 
-### Markdown
+This project allows registered members to learn stock trading in India without actually risking any money.
+Our project will allow people to buy and sell stocks without involving money. Members can invest using virtual money. 
+We shall also provide debriefing feature as to what they could have done better using technical analysis.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+•	Project Background – 
 
-```markdown
-Syntax highlighted code block
+Open a free account (using email-id) on our project.
+Get instant virtual money in your account (100,000 INR).
+Start buying/selling stocks like real trading scenarios.
+Monitor your portfolio and track profit/loss.
+Try different strategies and learn the trading basics.
 
-# Header 1
-## Header 2
-### Header 3
+•	Aims and objectives —
 
-- Bulleted
-- List
+No need to open a demat/trading account or go through any documentation process.
+No real money is required to start virtual trading.
+Real-time market scenarios to try out different strategies and to learn the basics.
+Risk-free trading practice.
+Okay to make mistakes and take risks, as there is no real loss here.
 
-1. Numbered
-2. List
+•	Relevance — 
 
-**Bold** and _Italic_ and `Code` text
+We design and develop complete application including the front-end, Web APIs design, back-end development and DB, which works on multiple OS’s.
 
-[Link](url) and ![Image](src)
-```
+•	Resources required — Four full-stack developer resources as specified in the project team-members list above. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2020MT93540/StockTradingSimulator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+•	Risks – We plan to use Kite Connect REST APIs to obtain live market data, manage portfolios. If these APIs become unavailable or chargeable then our project would be at risk.
