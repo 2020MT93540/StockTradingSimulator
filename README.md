@@ -24,7 +24,7 @@ Real-time market scenarios to try out different strategies and to learn the basi
 Risk-free trading practice.
 Okay to make mistakes and take risks, as there is no real loss here.
 
-•	Relevance — 
+•	Relevance —:
 
 We design and develop complete application including the front-end, Web APIs design, back-end development and DB, which works on multiple OS’s.
 
