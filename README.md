@@ -8,7 +8,7 @@ This project allows registered members to learn stock trading in India without a
 Our project will allow people to buy and sell stocks without involving money. Members can invest using virtual money. 
 We shall also provide debriefing feature as to what they could have done better using technical analysis.
 
-•	Project Background – 
+•	Project Background :
 
 Open a free account (using email-id) on our project.
 Get instant virtual money in your account (100,000 INR).
